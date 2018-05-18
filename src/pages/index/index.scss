@@ -1,0 +1,178 @@
+
+body {
+    font-family: -apple-system, "PingFang SC", Verdana, "Helvetica Neue", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;
+    min-width: 1210px;
+}
+.cartoon-wrap {
+    width: 100%;
+    .cartoon {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+.nav {
+    height: 50px;
+    background: #0d62b1;
+    color: #fff;
+    position: relative;
+
+    .content {
+        background-image: url(../../img/icons/wordcard.png);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+        background-size: 32px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+}
+
+.intro {
+    position: absolute;
+    left: 62px;
+    top: 0;
+}
+
+.nav-ul {
+    overflow: hidden;
+
+    .nav-item {
+        float: right;
+        list-style-type:none;
+        font-weight: 300;
+        padding: 0 10px;
+        line-height: 50px;
+    }
+}
+
+.banner-wrap {
+    position: relative;
+    height: calc(100vh - 50px);
+    background: #0d62b1;
+}
+
+.banner-bkg {
+    width: 100%;
+}
+
+.banner-content {
+    padding: 100px;
+    overflow: hidden;
+
+    .content {
+        margin: 0 auto;
+        width: 500px;
+        position: relative;
+        text-align: center;
+    }
+
+    .app-name {
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .app-subtitle {
+        font-weight: 300;
+        color: #fff;
+        font-size: 24px;
+    }
+}
+
+.tip {
+    display: inline-block;
+    background: rgba(255,255,255, .4);
+    font-size: 40px;
+    width: 600px;
+    text-align: left;
+    font-weight: 200;
+    color: #eee;
+}
+
+.steward-app-links {
+    font-size: 16px;
+    color: #ddd;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+
+.chrome-webstore {
+    font-size: 24px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.crx-download {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer {
+    background: #37474f;
+    padding: 24px 0;
+}
+
+.logo span {
+    display: block;
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+    background: url(../../img/icons/wordcard.png) no-repeat center center;
+    background-size: 50px 50px;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-around;
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        a {
+            color: #ccc;
+            text-decoration: none;
+            line-height: 30px;
+            width: 130px;
+
+            &:hover {
+                color: #eee;
+            }
+        }
+    }
+}
+
+.copywrite {
+    color: #888;
+    margin-top: 12px;
+    text-align: center;
+
+    a {
+        color: #888;
+        text-decoration: none;
+
+        &:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+    }
+}
